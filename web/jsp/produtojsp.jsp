@@ -13,20 +13,20 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>MercadoAcre</title>
-	<link href="/MercadoAcre/css/bootstrap.css" rel="stylesheet">
-	<link href="/MercadoAcre/css/loja.css" rel="stylesheet">
+	<title>mercadoAcre</title>
+	<link href="/mercadoAcre/css/bootstrap.css" rel="stylesheet">
+	<link href="/mercadoAcre/css/loja.css" rel="stylesheet">
 </head>
 <body>
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="conteiner">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="/MercadoAcre/index.html">MercadoAcre</a>
+				<a class="navbar-brand" href="/mercadoAcre/index.jsp">mercadoAcre</a>
 			</div>
 			<div>
 				<ul class="nav navbar-nav">
-					<li><a href="/MercadoAcre/jsp/produtojsp.jsp">Adiciona Produto</a></li>
-					<li><a href="/MercadoAcre/jsp/produtolista.jsp">Lista Produtos</a></li>
+					<li><a href="/mercadoAcre/jsp/produtojsp.jsp">Adiciona Produto</a></li>
+					<li><a href="/mercadoAcre/jsp/produtolista.jsp">Lista Produtos</a></li>
 				</ul>
 			</div>
 		</div>
@@ -35,7 +35,7 @@
 	<div class="container">
 		<div class="principal">
 	<h1>Formulario de produto</h1>
-	<form action="/MercadoAcre/servlet/ProdutoServlet" method="post">
+	<form action="/mercadoAcre/servlet/ProdutoServlet" method="post">
 		<table class="table">
 			<tr>
 				<td>Nome</td>

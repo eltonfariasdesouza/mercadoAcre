@@ -24,14 +24,14 @@
 		<td><%= c.getPreco()%></td>
                 <td><%= c.getId()%></td>
 		<td>
-			<form action="/MercadoAcre/servlet/ProdutoServlet" method="post">
+			<form action="/mercadoAcre/servlet/ProdutoServlet" method="post">
 				<input type="hidden" name="id" value="<%= c.getId()%>" >
 				<button class="btn btn-danger">Editar</button>
 				<input type="hidden" name="cmd" value="editar">
 			</form>
 		</td>
 		<td>
-			<form action="/MercadoAcre/servlet/ProdutoServlet" method="post">
+			<form action="/mercadoAcre/servlet/ProdutoServlet" method="post">
 				<input type="hidden" name="id" value="<%= c.getId() %>">
 				<button class="btn btn-danger">Excluir</button>
 				<input type="hidden" name="cmd" value="excluir">
